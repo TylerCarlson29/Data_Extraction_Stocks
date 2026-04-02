@@ -24,7 +24,7 @@ if st.sidebar.button("Get Data"):
 
     else: 
       # show success message 
-      st.success("Data successfully extracted for (ticker)")
+      st.success("Data successfully extracted for {ticker}.")
 
       #display company information
       st.subheader("Company Information")
